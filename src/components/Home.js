@@ -20,7 +20,7 @@ useEffect(()=>{
         navigate("/home") 
     }
 },[])
-    // const googleLogin=()=>{
+ 
         const signInWithGoogle = async () => {
     try {
         await signInWithPopup(auth,googleProvider).then((res)=>{
